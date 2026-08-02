@@ -33,6 +33,41 @@
     <li>Apparel type shift analysis (tees → long sleeves → sweatshirts → hoodies)</li>
     <li>New design concepts for your apparel business</li>
   </ul>
+<h2>Latest Report</h2>
+<p id="latest-report">Loading latest report...</p>
+
+<script>
+  async function loadLatestReport() {
+    try {
+      const response = await fetch('weekly_reports/');
+      const text = await response.text();
+
+      // Extract year folders
+      const yearMatches = [...text.matchAll(/href="(\\d{4})\\//g)];
+      if (!yearMatches.length) return;
+
+      const latestYear = yearMatches.map(m => m[1]).sort().pop();
+
+      const yearResponse = await fetch(`weekly_reports/${latestYear}/`);
+      const yearText = await yearResponse.text();
+
+      // Extract date folders
+      const dateMatches = [...yearText.matchAll(/href="(\\d{4}-\\d{2}-\\d{2})\\//g)];
+      if (!dateMatches.length) return;
+
+      const latestDate = dateMatches.map(m => m[1]).sort().pop();
+
+      const reportPath = `weekly_reports/${latestYear}/${latestDate}/Tee_Research_Report_${latestDate}.html`;
+
+      document.getElementById('latest-report').innerHTML =
+        `<a href="${reportPath}">View Latest Report (${latestDate})</a>`;
+    } catch (e) {
+      document.getElementById('latest-report').innerHTML = "Unable to load latest report.";
+    }
+  }
+
+  loadLatestReport();
+</script>
 
   <h2>Latest Weekly Reports</h2>
   <p>Click below to view your most recent reports:</p>
