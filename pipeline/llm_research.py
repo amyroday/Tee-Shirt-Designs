@@ -18,6 +18,27 @@ import anthropic
 
 MODEL = "claude-opus-5"
 
+# Cost controls -- this runs weekly and the owner has a $5/week budget for the
+# whole pipeline. Claude Opus 5 pricing (USD per million tokens): $5 input /
+# $25 output / $6.25 cache write / $0.50 cache read. A hard per-run ceiling
+# well under $5 leaves headroom for occasional manual re-runs in the same week.
+MAX_COST_USD_PER_RUN = 2.00
+PRICE_PER_MTOK = {
+    "input": 5.0,
+    "output": 25.0,
+    "cache_write": 6.25,
+    "cache_read": 0.50,
+}
+
+
+def _call_cost_usd(usage) -> float:
+    return (
+        getattr(usage, "input_tokens", 0) * PRICE_PER_MTOK["input"]
+        + getattr(usage, "output_tokens", 0) * PRICE_PER_MTOK["output"]
+        + getattr(usage, "cache_creation_input_tokens", 0) * PRICE_PER_MTOK["cache_write"]
+        + getattr(usage, "cache_read_input_tokens", 0) * PRICE_PER_MTOK["cache_read"]
+    ) / 1_000_000
+
 RESPONSE_SCHEMA = {
     "type": "object",
     "properties": {
@@ -177,16 +198,38 @@ def run_research(
 """
 
     messages = [{"role": "user", "content": user_prompt}]
+    total_cost_usd = 0.0
 
     for _ in range(3):  # allow a couple of pause_turn resumes for the server-side search loop
-        response = client.messages.create(
+        # Streamed (not .create()) so a real grounded response -- which has already
+        # exceeded 16000 tokens once -- has room up to the model's 128k output cap
+        # without needing another guess-and-redeploy cycle, and without risking the
+        # SDK's non-streaming timeout guard on large max_tokens. Beta endpoint is
+        # needed for task_budget, the native agentic-loop cost cap.
+        with client.beta.messages.stream(
             model=MODEL,
-            max_tokens=16000,
+            max_tokens=32000,
             system=SYSTEM_PROMPT,
-            tools=[{"type": "web_search_20260209", "name": "web_search"}],
-            output_config={"format": {"type": "json_schema", "schema": RESPONSE_SCHEMA}},
+            tools=[{"type": "web_search_20260209", "name": "web_search", "max_uses": 10}],
+            output_config={
+                "format": {"type": "json_schema", "schema": RESPONSE_SCHEMA},
+                "effort": "medium",  # opus-5 performs strongly at medium; biggest single cost lever
+                "task_budget": {"type": "tokens", "total": 60000},
+            },
+            betas=["task-budgets-2026-03-13"],
             messages=messages,
-        )
+        ) as stream:
+            response = stream.get_final_message()
+
+        call_cost = _call_cost_usd(response.usage)
+        total_cost_usd += call_cost
+        print(f"Research API call cost: ${call_cost:.4f} (running total: ${total_cost_usd:.4f})")
+
+        if total_cost_usd > MAX_COST_USD_PER_RUN:
+            raise RuntimeError(
+                f"Research call exceeded the ${MAX_COST_USD_PER_RUN:.2f} per-run cost ceiling "
+                f"(spent ${total_cost_usd:.4f}) -- stopping rather than continuing to spend."
+            )
 
         if response.stop_reason == "pause_turn":
             messages = [{"role": "user", "content": user_prompt}, {"role": "assistant", "content": response.content}]
@@ -199,6 +242,7 @@ def run_research(
             )
 
         text = next(block.text for block in response.content if block.type == "text")
+        print(f"Research call total cost: ${total_cost_usd:.4f}")
         return json.loads(text)
 
     raise RuntimeError("Research call did not complete after multiple pause_turn resumes")
