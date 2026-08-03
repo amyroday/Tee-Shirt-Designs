@@ -1,119 +1,121 @@
 # Weekly Tee & Sweatshirt Trends – 2026-08-03
 
 ## Summary & Key Recommendations
-Report date: early August 2026. This is a pre-season build window: short-sleeve tees are still the volume winner right now (back-to-school, late-summer humor, football preseason hype), but the apparel-type shift to crewneck sweatshirts/hoodies begins ~mid-September and dominates October-December, so every fall/football/Christmas concept should be built art-first and published on BOTH a tee and a Heavy Blend crewneck now. Two demand spikes are converging this cycle: (1) the Nov 3, 2026 midterms - political/civic apparel searches are already live on Etsy ('Election 2026', 'Vote It Matters', 'Vote Them Out 2026', plus the Gen-Z retro-campaign-tee aesthetic noted by LSE), and (2) football + cozy-fall, which historically starts converting the last week of August. Etsy's own 2026 forecast (Texture of the Year: Washed Linen, 'perfectly imperfect'/softer aesthetic) plus Pinterest's cozy-nostalgia and collegiate-preppy signals point to washed/faded, textured, hand-drawn and varsity-collegiate type treatments over crisp vector minimalism this season. No shop sales data, Google Trends data, or ListingView export was supplied for this run, so all recommendations are web-signal + category-pricing based; next run should include a ListingView export to override generic blog claims. Because Printify's catalog API returns no per-variant base cost for these blueprints (SwiftPOD tee, Print Geek long sleeve, Printful crewneck, Print Geek hoodie), all prices below are set from typical POD market pricing to land roughly $7-$10 net per unit after production, shipping and Etsy fees.
+Timing context: this run lands in early August 2026 — the pre-fall build window. Tees are still the volume winner in-market right now, but every credible signal (PrintKK's June 2026 fall POD guide, Printful's 2026 design-trend updates, Etsy's own fall/winter Seller Trend Report cadence) points to crewneck sweatshirts and hoodies taking over conversions from mid-September through December, so listings should be built now with sweatshirt/hoodie as a same-design variant, not added later. Three demand stacks matter this week: (1) evergreen personalized/nostalgia graphics (retro varsity, 'naive'/hand-drawn imperfect art, quiet-luxury minimal type, cozy-core), (2) football/game-day, which is the single most reliable Aug–Nov seller on Etsy and where searchers are already browsing 'game day shirt' and 'football mom' listings, and (3) political apparel for the Nov 3, 2026 midterms, where Etsy already shows live listings for 'Election 2026', 'Vote It Matters', 'Midterm Elections Matter' and anti-incumbent/GOTV slogans — a category that spikes hard from Labor Day through the first week of November. No shop sales data, Google Trends, or ListingView export was supplied for this run, so everything below is web-signal-based and flagged as such; once a ListingView export exists it should override these picks. All prices assume the shop's actual Printify blanks (Print Bar Bella-style jersey tee, Duplium long sleeve, Textildruck Gildan Heavy Blend crew/hoodie) and are set at typical Etsy POD market rates that clear roughly $7–$10 net per unit after production, shipping and Etsy fees, since Printify's API is not returning base cost.
 
 ## Overall Top Sellers (All Niches)
 
 | Product Type | Printify Product | Niche | Design | Price | Est. Profit | Source |
 |---|---|---|---|---|---|---|
-| tee | Unisex Jersey Short Sleeve Tee (SwiftPOD) - Athletic Heather or Ash | Game day / football mom (generic, no team marks) | Retro varsity 'GAME DAY' arch with distressed collegiate block letters and a simple football icon, faded/washed ink texture. Tee version for August-September heat, then flip identical art to Dark Heather crewneck for October. | $29.50 | $8.50 | [link](https://www.etsy.com/listing/1545332443/game-day-shirt-cute-football-sweatshirt) |
-| sweatshirt | Unisex Heavy Blend Crewneck Sweatshirt (Printful) - Dark Heather / Ash | Cozy fall aesthetic | Small left-chest hand-lettered 'sweater weather' with a tiny hand-drawn leaf, plus a large tonal back print; washed, slightly imperfect texture per Etsy's 2026 'perfectly imperfect' forecast. | $44.00 | $9.00 | [link](https://vitamagazine.com/2025/12/13/etsys-2026-trend-forecast-softness-soul-perfectly-imperfect-style/) |
-| sweatshirt | Unisex Heavy Blend Crewneck Sweatshirt (Printful) - Black / Indigo Blue | Personalized / name-and-year gifting | Customizable large centered collegiate name + 'EST.' year layout (family name, team name, teacher, class of 2027). Personalized hoodies/sweatshirts are repeatedly flagged as Etsy's strongest fall-winter apparel sellers. | $46.00 | $9.50 | [link](https://www.outfy.com/blog/best-selling-clothing-items-on-etsy/) |
-| tee | Unisex Jersey Short Sleeve Tee (SwiftPOD) - Ash / Athletic Heather | Political / civic (midterms) | Retro 1970s campaign-poster style 'VOTE 2026' roundel with starburst rays and grainy vintage texture - leans on the Gen-Z retro campaign-tee aesthetic rather than a partisan insult. | $29.00 | $8.00 | [link](https://blogs.lse.ac.uk/usappblog/2025/09/15/the-2026-midterms-the-blurred-line-has-vanished-and-politics-has-become-pop-culture/) |
-| tee | Unisex Jersey Short Sleeve Tee (SwiftPOD) - Autumn / Berry | Bold expressive prints (2026 apparel trend) | Oversized polka-dot or zebra-pattern arch typography ('Pumpkin Season', 'Cozy Era') using 2026's bigger, more expressive print direction called out in eRank's 2026 trend guide. | $28.50 | $7.50 | [link](https://help.erank.com/blog/etsy-trends-2026/) |
-| hoodie | Unisex Heavy Blend Hooded Sweatshirt (Print Geek) - Charcoal / Dark Chocolate | Halloween / 'Gothmas' crossover | Moody hand-drawn spooky-cozy motif (ghost with a coffee, gothic script 'Stay Spooky') sized for a hood-friendly chest print; upload now so it indexes before the September-early October Halloween peak. | $52.00 | $9.50 | [link](https://www.sellerapp.com/blog/etsy-trends/) |
-| long sleeve tee | Unisex Jersey Long Sleeve Tee (Print Geek) - Navy / Cardinal | Collegiate/preppy nostalgia | Preppy 'university sweatshirt' layout with chest wordmark plus sleeve-run text; long sleeve is the September bridge product between tee and sweatshirt price points. | $36.00 | $8.00 | [link](https://www.magiclinks.com/blog/pinterest-fall-trend-report-2025-a-creators-guide/) |
-| sweatshirt | Unisex Heavy Blend Crewneck Sweatshirt (Printful) - Forest Green / Dark Chocolate | Christmas / holiday gifting | Vintage-storybook Christmas scene (retro truck, cabin, or 'Merry & Bright' script) in muted forest/cream palette - the giftable holiday crewneck that carries November-December revenue. | $45.00 | $9.00 | [link](https://printify.com/blog/seasonal-product-trends/) |
+| tee | Unisex Jersey Short Sleeve Tee (The Print Bar) — Athletic Heather or Ash | Football / game day (women's fit styling) | Retro varsity 'GAME DAY' arch with distressed collegiate block letters, faded-print texture, single-color burnt orange or navy ink on Athletic Heather; add a small football line-icon under the arch. Keep it team-agnostic so it sells nationwide. | $28.00 | $9.00 | [link](https://www.etsy.com/listing/4373716209/game-day-football-shirt-gameday-shirt) |
+| sweatshirt | Unisex Heavy Blend Crewneck Sweatshirt (Textildruck Europa) — Ash or Dark Heather | Football mom / sports parent | 'FOOTBALL MOM' in a hand-drawn bouncy serif with a small stitched-look football and jersey-number placeholder on the sleeve; cream + burnt-orange two-color print. Personalization (player name/number) is what drives the category on Etsy. | $46.00 | $9.50 | [link](https://www.etsy.com/market/football_mom_hoodie) |
+| tee | Unisex Jersey Short Sleeve Tee (The Print Bar) — Heather Mauve or Heather Peach | Naive / anti-perfection art (Kittl 2026 trend) | Wobbly hand-drawn flowers and a crooked smiling sun with a marker-style caption ('take it slow'); intentionally imperfect linework, 2–3 muted colors. Reads handmade rather than AI-generic, which is the whole point of the trend. | $27.00 | $8.50 | [link](https://www.kittl.com/blogs/naive-design-trend-stl/) |
+| sweatshirt | Unisex Heavy Blend Crewneck Sweatshirt (Textildruck Europa) — Light Pink or Ash | Cozy-core / faux-embroidery minimalism | Small left-chest 'stitched' motif — initials, a tiny heart, or coordinates — rendered as satin-stitch faux embroidery in tonal thread color. Mimics the embroidered-sweatshirt trend at DTG cost. | $44.00 | $8.00 | [link](https://www.outfy.com/blog/best-selling-clothing-items-on-etsy/) |
+| tee | Unisex Jersey Short Sleeve Tee (The Print Bar) — Black | Political / midterms GOTV | 'VOTE — IT STILL MATTERS · NOV 3 2026' set in a bold 1970s poster sans with a ballot-check mark; single-color cream ink on Black. Non-partisan turnout framing widens the buyer pool. | $28.00 | $9.00 | [link](https://www.etsy.com/market/election_t_shirts) |
+| hoodie | Unisex Heavy Blend Hooded Sweatshirt (Textildruck Europa) — Forest Green or Dark Chocolate | Fall / outdoorsy nostalgia | Faux-vintage national-park style badge with pines, a stag, and 'EST. AUTUMN' year tag; cream + rust two-color, heavy distress. Forest Green and Dark Chocolate are exactly the fall palette buyers search. | $52.00 | $9.50 | [link](https://www.printkk.com/gb/blog/articles/fall-print-on-demand-products) |
+| long sleeve tee | Unisex Jersey Long Sleeve Tee (Duplium) — Asphalt | Game day / tailgate transitional layer | Vertical sleeve-print 'FRIDAY NIGHT LIGHTS' repeat with a front-left-chest football patch graphic; sleeve prints are the differentiator that justifies a higher price on long sleeves. | $36.00 | $8.50 | [link](https://www.etsy.com/listing/1056277400/game-day-long-sleeve-shirt-football) |
+| sweatshirt | Unisex Heavy Blend Crewneck Sweatshirt (Textildruck Europa) — Black or Dark Heather | Christmas (early-bird holiday build) | Coquette-Christmas: a simple line-art tree topped with a satin bow, 'Merry & Bright' in a delicate script, cream + red. Bow/coquette holiday motifs and ballet/Nutcracker-adjacent pastel themes are the named 2026 holiday keyword cluster. | $45.00 | $8.50 | [link](https://www.sellerapp.com/blog/etsy-trends/) |
 
 ## Political & Election Tees (2026 Midterms)
 
-With the general midterm election on Nov 3, 2026, political apparel is in its ramp phase right now and will peak from mid-September through the first week of November. Live Etsy demand is visible in two distinct lanes: (a) explicitly partisan/anti-incumbent slogans ('Vote Them Out 2026', 'Resist'-style tees) and (b) softer non-partisan civic-pride messaging ('Vote It Matters', 'Midterm Elections Matter', 'Register to Vote'), which is safer for a whimsical brand, has broader gift appeal, and is far less likely to draw Etsy policy or takedown risk. Commentary on the cycle also notes politics functioning as pop culture and fashion for younger buyers - the retro campaign tee as an identity statement - which is a design opportunity: sell the aesthetic (1970s campaign poster, ballot/roundel, civic-badge design) rather than the insult. Practical timing: political buyers want to wear the shirt outdoors at rallies, canvassing and polling lines in September-October, so this niche stays tee-and-long-sleeve heavier than the rest of the fall catalog, with sweatshirts only for late-October cold-weather canvassing states.
+The Nov 3, 2026 midterms are roughly three months out — all 435 House seats, 35 Senate seats and 36 governorships. Etsy already carries live 2026-dated political listings ('Election 2026' voter tees, 'Midterm Elections Matter', anti-incumbent 'vote them out' designs), which means the category is validated but not yet saturated at the design level. Academic coverage of 2026 notes politics has fully merged with pop culture and that political identity is now worn as fashion — including nostalgia-styled retro campaign tees on the right and protest/resist graphics on the left. Practical strategy for a small shop: lead with high-volume, low-risk civic/turnout messaging (sells to both sides, low takedown and review risk), then run a smaller number of clearly partisan progressive designs, which historically out-sell conservative equivalents on Etsy's buyer base. Avoid candidate names, real logos, and copyrighted campaign marks — go slogan-and-symbol only. Volume ramps from Labor Day, peaks mid-October (ship-by-Nov-1 pressure), and collapses to near zero on Nov 4, so front-load tees and cut off sweatshirt-heavy political SKUs by mid-October.
 
-**Apparel type shift:** Political items are the one category where the short-sleeve tee remains the primary seller all the way to Election Day - rally/canvass/polling-line wear photographs as a tee. Shift order: tee now through late September, add the Navy/Asphalt long sleeve as the primary from ~Oct 1 (canvassing weather), and only stock Black/Dark Heather crewnecks for the final two weeks of October. Do NOT move political art onto hoodies as the lead product; hoodie political sales are marginal and the chest print gets obscured.
+**Apparel type shift:** Political demand is tee-dominant through September (rallies, canvassing, warm-weather wear), then shifts sharply to crewneck sweatshirts and hoodies for October canvassing and Election Day in cold states. Build every political design as a tee first, then clone to the Textildruck crewneck in Black/Dark Heather by ~Sept 15; keep the Duplium long sleeve in Asphalt as the October door-knocking SKU.
 
 | Slogan / Theme | Visual Motif | Tone | Product Type | Printify Product |
 |---|---|---|---|---|
-| VOTE 2026 - retro campaign roundel | 1970s campaign-button circle with starburst rays, grainy vintage overprint, cream ink on Ash | non-partisan, nostalgic, fashion-forward | tee | Unisex Jersey Short Sleeve Tee (SwiftPOD) - Ash / Athletic Heather |
-| Midterms Matter | Hand-lettered script over a simple ballot-box line drawing | earnest, civic, giftable | tee | Unisex Jersey Short Sleeve Tee (SwiftPOD) - Asphalt / Athletic Heather |
-| I Voted (and I'm telling everyone) | Oversized sticker-style badge with whimsical wobble outline, checkmark and confetti | playful, humorous, non-partisan | tee | Unisex Jersey Short Sleeve Tee (SwiftPOD) - Baby Blue / Aqua |
-| Knock Doors, Not Heads - Canvasser Crew | Retro varsity arch + clipboard/door icon, distressed collegiate lettering | wry, in-group humor for volunteers | long sleeve tee | Unisex Jersey Long Sleeve Tee (Print Geek) - Navy / Asphalt |
-| Vote Them Out 2026 | Bold stencil/protest-poster type, single-color white on Black | partisan, confrontational (highest volume, highest policy risk - keep as a separate non-brand-forward listing) | tee | Unisex Jersey Short Sleeve Tee (SwiftPOD) - Asphalt (Black-equivalent via long sleeve/crew if needed) |
-| Democracy Is a Group Project | Whimsical hand-drawn figures holding ballots, muted 2026 'softness' palette | gentle, wholesome, shareable | sweatshirt | Unisex Heavy Blend Crewneck Sweatshirt (Printful) - Dark Heather / Indigo Blue |
-| First-Time Voter '26 | Collegiate numerals '26 with confetti and a small star row | celebratory, Gen-Z gift purchase | tee | Unisex Jersey Short Sleeve Tee (SwiftPOD) - Athletic Heather |
+| VOTE — IT STILL MATTERS · 11.03.2026 | Bold 70s poster sans-serif with a hand-drawn ballot checkbox and a thin rule underline | Non-partisan / civic, wearable by either side | tee | Unisex Jersey Short Sleeve Tee (The Print Bar) — Black, Athletic Heather |
+| Midterms Matter | Stacked condensed type in a faux-letterpress block with a subtle stars-and-stripes texture fill | Earnest, civic-pride | tee | Unisex Jersey Short Sleeve Tee (The Print Bar) — Heather Navy |
+| Vote Them Out (2026) | Grunge stencil spray-paint type with a crossed-out box, high-contrast one-color print | Angry / protest, progressive-coded | tee | Unisex Jersey Short Sleeve Tee (The Print Bar) — Black |
+| Democracy Is a Group Project | Naive hand-drawn figures holding a ballot box, crayon-textured cream ink | Wry, gentle-humor, gift-friendly | sweatshirt | Unisex Heavy Blend Crewneck Sweatshirt (Textildruck Europa) — Ash, Dark Heather |
+| Register. Show Up. Repeat. | Three-line typographic lockup with tiny arrow icons, minimal quiet-luxury styling | Understated, professional-office-safe | long sleeve tee | Unisex Jersey Long Sleeve Tee (Duplium) — Asphalt, White |
+| Protect the Parks / Public Lands Voter | Vintage park-badge bear with a small ballot-check tucked into the emblem | Issue-based, progressive but non-confrontational | hoodie | Unisex Heavy Blend Hooded Sweatshirt (Textildruck Europa) — Forest Green |
+| Local Elections, Loud Results | Retro varsity arch over a small city-skyline silhouette, two-color | Civic-booster, hyper-local gifting angle | sweatshirt | Unisex Heavy Blend Crewneck Sweatshirt (Textildruck Europa) — Black |
 
 ## Seasonal Tees (Fall / Thanksgiving / Football / Christmas)
 
-**Apparel type shift:** CRITICAL SHIFT WINDOW THIS MONTH: through August 31 the short-sleeve tee is still the volume leader (preseason football, back-to-school, warm weather). Sept 1-20 is the crossover - list long sleeve tees (Navy, Cardinal, Asphalt) as the bridge SKU and start running ads to sweatshirt variants. From roughly Sept 20 the Heavy Blend crewneck sweatshirt becomes the primary seller for fall/football/Thanksgiving and stays primary through late December; hoodies overtake crewnecks only for the coldest-weather use cases (late-season games, outdoor Christmas events) and for gift buyers wanting a higher-perceived-value item. Practical rule: build every design at crewneck-safe print dimensions first, then downscale to tee - never the reverse - and publish tee + crewneck as separate listings (not just variants) so each captures its own seasonal search traffic.
+**Apparel type shift:** This is the pivotal shift of the quarter. Right now (early August) short-sleeve tees still convert best — heat, tailgate previews, and political rallies. Expect the crossover around the second or third week of September: from that point crewneck sweatshirts overtake tees in both conversion rate and revenue per unit, hoodies peak October through December (searches for POD hoodies historically spike in November), and the Duplium long sleeve tee is the bridge SKU for late September/early October when a sweatshirt is still too warm. Concrete rule for this shop: any design launched from now through Labor Day should ship as tee + crewneck simultaneously; from Sept 15 onward make the crewneck the primary photo and thumbnail; from Oct 15 onward lead every new listing with the hoodie. Also swap listing photo backgrounds and color emphasis with the calendar — Heather Peach/Heather Mauve/Athletic Heather sell in August, Ash/Dark Heather/Forest Green/Dark Chocolate sell from October, and Black plus Light Pink carry the December holiday and coquette themes.
 
 ### Fall
-- 'Sweater Weather' small left-chest hand-lettering + tonal back print - launch on tee now, crewneck primary from mid-September (Ash, Dark Heather).
-- Pumpkin-spice/apple-cider cozy typography using Pinterest's warm nostalgic scent cues (apple, vanilla, caramel) - tee in August, crewneck in October.
-- 'Perfectly imperfect' washed-texture leaf/mushroom botanical illustration matching Etsy's 2026 softer aesthetic forecast - crewneck in Dark Chocolate / Forest Green.
-- Oversized expressive prints per 2026 forecasts: big polka-dot or zebra-pattern 'Fall Era' arch on Autumn/Berry tee.
-- Halloween-adjacent 'Gothmas' moody cozy designs uploaded in August so they index before the September-early-October Halloween peak - Charcoal hoodie.
+- 'Sweater Weather Society' — faux-embroidery script, left chest, tonal cream on Ash crewneck (sweatshirt; the flagship fall SKU)
+- Vintage park-badge stag + pines with 'EST. AUTUMN' year tag — Forest Green hoodie, cream/rust two-color
+- Naive hand-drawn pumpkin patch with wobbly linework and 'hello, cozy season' — Heather Peach tee now, cloned to Light Pink crewneck by mid-September
+- Retro 70s striped sunset with 'Fall Y'All' in groovy type — Heather Mauve tee, the last strong warm-weather fall seller
+- Literary-gothic autumn: raven silhouette inside a thin gothic arch with a short public-domain horror line — Black tee and Black hoodie (Halloween crossover, list by Aug 20)
 
 ### Thanksgiving
-- 'Gather' / 'Grateful' minimal hand-lettered script on Dark Chocolate or Forest Green crewneck - top gifting/host purchase.
-- Funny family-dinner humor ('Here for the Sides', 'Nap Team Captain') on Ash crewneck; this is a same-week impulse buy, so list by Oct 15 with fast-production variants.
-- Matching-family 'Thankful Crew' personalized name set - crewneck primary, tee for warm-climate buyers.
-- Whimsical hand-drawn turkey/pie illustration in muted 2026 palette - long sleeve tee for the mid-tier price point.
+- 'Gather' in a hand-drawn serif with a wheat-sheaf underline — Ash crewneck, single-color chocolate ink
+- 'Thankful, Grateful, Deeply Caffeinated' — naive-style coffee cup, humor SKU, Dark Heather crewneck
+- 'Feast Mode' varsity block with a distressed turkey mascot — family-matching angle, tee + youth-look styling on Athletic Heather
+- 'Friendsgiving Est. 2026' with a wobbly table-setting line drawing — Light Pink crewneck, personalizable year
+- Pilgrim-free, food-first design ('Pie Is a Personality Trait') to sidestep the crowded turkey-graphic space — Heather Mauve tee
 
 ### Football
-- 'GAME DAY' distressed collegiate arch with football icon (no team marks) - tee NOW for preseason August, crewneck from mid-September.
-- 'Football Mom' / 'Football Era' script with tonal number - highest-converting parent gift; personalized player name + number version on crewneck.
-- 'Sunday Funday' retro tailgate badge - Ash/Athletic Heather tee in August, Dark Heather crewneck in October.
-- Team-color-agnostic personalized 'Friday Night Lights' town/school name crewneck - Indigo Blue, Forest Green, Gold to match local school palettes.
-- Tailgate humor ('I'm Just Here for the Snacks', 'Touchdown Jesus of the Backyard') - hoodie for late-season cold-weather games.
+- 'GAME DAY' distressed collegiate arch, team-agnostic, burnt orange on Athletic Heather — tee (highest-velocity SKU this month)
+- 'FOOTBALL MOM' bouncy serif + faux-stitch football, personalizable player name/number — Ash crewneck (top revenue-per-unit SKU of the season)
+- 'Friday Night Lights' vertical sleeve print with left-chest patch — Asphalt long sleeve tee
+- 'Senior Football Mom · Class of 2027' badge with glitter-look texture — Black crewneck; senior-year personalization commands premium pricing
+- Retro bootleg-rap-poster layout ('Gameday Tour 2026') with faux photo blocks and tour-date back print — Black tee, then Black hoodie in October
+- 'Tailgate Coordinator' humor badge with a faux-varsity crest — Dark Heather hoodie for November cold-weather games
 
 ### Christmas
-- Vintage-storybook 'Merry & Bright' or retro truck/cabin scene on Forest Green crewneck - the season's core revenue product.
-- Ugly-sweater-style knit-pattern all-over-look chest panel with whimsical motifs - Heliconia / Indigo Blue crewneck for the party market.
-- Matching family pajama-adjacent 'Cozy Crew' personalized name set - crewneck plus youth-substitute tee.
-- 'Christmas Cookie Taste Tester' / 'Santa's Favorite' humor - hoodie in Dark Chocolate for the gifting bundle.
-- Non-denominational winter-cozy 'Hot Cocoa Season' art that keeps selling through January - crewneck in Ash.
+- Coquette-Christmas line-art tree with a satin bow + 'Merry & Bright' script — Black or Light Pink crewneck (the named 2026 holiday keyword cluster)
+- Ballet/Nutcracker-adjacent pastel motif: soft-pink toe-shoe ribbon wreath — Light Pink crewneck
+- 'Cozy Season Est. 2026' faux-embroidered left chest, tonal thread look — Ash crewneck, giftable and non-dated-looking
+- Vintage truck-free alternative: retro pastel ornament grid with 'Trim the Tree Crew' family-matching set — tee + crewneck bundle
+- 'Christmas Movie Marathon Champion' naive-illustration humor design — Dark Heather hoodie, strong Dec 1–15 seller
+- Personalized 'The ___ Family Christmas' varsity arch with year tag — Forest Green crewneck; personalization is what survives the December price war
 
 ## Historical vs Current vs Predicted Trends
 
 **Historical (evergreen):**
-- Patriotic/'America 250' designs dominated Etsy's trending-tee data through the July 4, 2026 window and are now decaying fast - stop making new ones, keep only proven listings live.
-- Mom-life/'Cool Moms Club' and Mama-Bear personalized sweatshirts were the persistent 2025 evergreen bestseller base and remain a reliable floor category.
-- Crisp minimalist vector typography and hyper-curated aesthetics carried 2024-2025 but are being displaced by softer, textured, imperfect treatments per Etsy's 2026 forecast.
-- Reagan-Bush-'84-style retro campaign tees proved that vintage political nostalgia sells as fashion, not just as protest.
+- Summer 2026 volume sat in patriotic/Americana (the US 250th-anniversary wave), neon 'trendy summer' tees, beach/distressed styles, and Comfort-Colors-look garment-dyed aesthetics — all now decaying and should be de-prioritized in ad spend.
+- Mother's-Day-driven 'mom club' embroidered sweatshirts and mama-bear personalization dominated spring; the mechanic (small chest embroidery-look personalization) still works, the seasonal hook does not.
+- Prior fall seasons established the reliable pattern: Halloween retro-ghost/pumpkin sweatshirts peak early-to-mid October, football peaks September, Christmas peaks Dec 1–15, and every year the sweatshirt/hoodie share of orders roughly doubles between September and November.
 
 **Current (last 30-90 days):**
-- Political/civic 2026 midterm apparel is actively listed and selling now on Etsy in both partisan and non-partisan lanes; volume climbs weekly through Nov 3.
-- Football/game-day tees are converting on preseason interest right now - August is the launch window, not September.
-- Personalization (names, years, town/school, player numbers) remains the single biggest conversion lever on sweatshirts and hoodies.
-- Etsy 2026 direction: washed linen texture-of-the-year, 'perfectly imperfect' hand-made feel, softer muted palettes; Pinterest: cozy nostalgia, collegiate/preppy layering, warm scent-nostalgia motifs.
-- Bigger, bolder prints - oversized polka dots, zebra, graphic florals - plus a softened 80s revival.
+- Football and game-day apparel is the live, already-searching category — Etsy game-day and football-mom listings are actively accumulating favorites right now, and personalization (player name, number, class year) is the price-premium lever.
+- Naive / anti-perfection hand-drawn design and 'visible making' textures (crochet, stitch, embroidery looks) are the loudest 2026 design-trend signals from Kittl and Printful — they read human in an AI-flooded market.
+- Political/midterm apparel is in early ramp with live 2026-dated Etsy listings; competition exists but design quality is generally poor, so a well-typeset non-partisan turnout tee can win quickly.
+- Quiet-luxury minimal typography and elevated-basics styling continue to convert for gifting and office-safe wear.
+- Fall aesthetics per current POD guidance: varsity blocks, bold stripes, faded prints, camel/navy/burnt-orange palettes on crewnecks and zip hoodies.
 
 **Predicted (next 1-3 months):**
-- Late August-September: sharp rise in football/game-day sweatshirts and 'Gothmas'/Halloween-adjacent items (Halloween peaks September-early October, earlier than most sellers expect).
-- September-October: political tee demand doubles and shifts toward long sleeve; expect a spike in first-time-voter and canvassing-crew designs plus post-primary slogan churn.
-- October-November: apparel-type crossover completes - crewneck sweatshirt becomes the dominant unit; Thanksgiving humor spikes in the 10 days before the holiday.
-- November-December: Christmas crewnecks and matching-family personalized sets carry the quarter; hoodies win the higher-ticket gift segment.
-- Post-election (Nov 4+): political inventory value collapses overnight - plan to de-list or archive partisan slogans and pivot ad spend entirely to Christmas by Nov 5.
-- Into January 2027: cozy non-holiday winter designs ('Hot Cocoa Season', new-year word-of-the-year) fill the post-Christmas gap.
+- Mid-September: crewneck sweatshirts overtake tees as the shop's top revenue product type; expect a step-change, not a gradual drift.
+- Late September through mid-October: Halloween/dark-academia and gothic-autumn graphics spike, then die abruptly after Oct 31 — cap inventory of new Halloween designs after Oct 10.
+- Mid-October: political apparel peaks with shipping-deadline urgency, then goes to zero on Nov 4. Plan a hard sunset — pause or delete political ads Nov 2.
+- November: hoodie search interest peaks; also expect Thanksgiving family-matching and 'Friendsgiving' personalization to over-index versus generic turkey graphics.
+- December: coquette/bow Christmas, ballet-Nutcracker pastels, and personalized family-name designs outlast generic holiday puns; December 10 is the last realistic Printify ship-in-time date to lean on.
+- Early 2027 carryover: hopecore/optimism slogans and 'core'-aesthetic keywords (castlecore, knightcore) are rising in Etsy search and are worth two speculative sweatshirt designs in December for a January runway.
 
 ## Week-over-Week Movement
 
 No prior week to compare against -- this is the first report.
 
 ## Design Gaps We Can Exploit
-- Non-partisan civic/'Midterms Matter' aesthetic designs are thin relative to loud partisan slogans - the softer, giftable, fashion-first civic tee is the clearest open lane and is brand-safe for Whimsical Ember.
-- Canvasser/poll-worker/volunteer in-group humor apparel is nearly absent; it's a repeat, group-order purchase (teams buy 5-20 units).
-- Team-color-agnostic personalized football designs matched to this catalog's unusual colorways (Gold, Heliconia, Irish Green, Carolina Blue, Cardinal) - most competitors only offer black/grey/white.
-- Political + fall crossover ('Vote Then Pumpkin Spice', 'Ballots & Cardigans') - no one is combining the two peak seasonal demand curves.
-- Long sleeve tees are broadly under-served in the September bridge window - competitors jump straight from tee to sweatshirt, leaving a mid-price gap this shop can own with the Navy/Cardinal Print Geek blank.
-- 'Perfectly imperfect' washed-texture fall art is still rare; most fall listings remain crisp vector, so Etsy's own 2026 aesthetic guidance is under-executed.
-- Post-election-week and January cozy designs (the two dead zones) - almost no competitor plans for them.
+- Team-agnostic football designs that still feel specific — most competitors either use real (infringing) team marks or generic clipart footballs; a well-drawn retro varsity system in the shop's Ash/Athletic Heather palette fills the middle.
+- Non-partisan turnout political tees with genuinely good typography — the live 2026 Etsy political listings are almost entirely plain-text or meme-tier; there is little competition on design quality.
+- Faux-embroidery DTG designs: buyers want the embroidered-sweatshirt look, real embroidery is expensive, and satin-stitch-simulated left-chest graphics on the Heavy Blend crewneck are underserved.
+- Naive/anti-perfection illustration in seasonal categories — the trend is discussed everywhere in design media but barely applied to Thanksgiving, football, or midterm merchandise.
+- Men's/unisex fall and holiday designs — the fall and Christmas sweatshirt market is overwhelmingly women's-styled; Dark Chocolate and Forest Green hoodies with outdoorsy badge art address an unserved buyer.
+- Long sleeve tees are almost absent from competitor catalogs even though they're the ideal late-September transitional garment — the Duplium Asphalt long sleeve with a sleeve print is a low-competition wedge.
+- Plus-size-forward and oversized-fit photography/keywording; unisex blanks already deliver the oversized look but few listings say so.
+- Thanksgiving designs that avoid turkeys and pilgrims entirely (food-humor and 'gather' typography) — much lower competition than the saturated turkey graphic space.
 
 ## Action Plan to Reach $10,000 Net Income
 
-**Designs to launch this week:** 12
+**Designs to launch this week:** 10
 
-**Priority niches:** Football / game day (tee now, crewneck art built in parallel), Non-partisan 2026 midterm civic tees, Personalized name/number/town crewnecks, Cozy fall 'sweater weather' washed-texture, Halloween / 'Gothmas' early upload, Christmas crewneck groundwork
+**Priority niches:** Football / game day (including football mom and senior-year personalization), Political / 2026 midterm turnout tees, Fall cozy-core and vintage outdoors badges, Naive / anti-perfection hand-drawn everyday graphics, Thanksgiving typography and family-matching (build now, list by Sept 1), Christmas coquette/bow and personalized family designs (build now, list by Oct 1)
 
-**Pricing notes:** Printify's catalog API returns no per-variant base cost for these four blueprints, so price from POD market norms to hit a $7-$10 net target per unit after production, shipping and Etsy's ~9-10% all-in fee load: tee $28-$32 (target ~$8 net), long sleeve tee $34-$38 (~$8), crewneck sweatshirt $42-$48 (~$9), hoodie $48-$55 (~$9.50). Add $3-$5 for personalization (it converts and buyers accept the premium). Build free-shipping thresholds into the listed price rather than charging shipping separately. Verify true margin manually in the Printify dashboard for one variant per blueprint before scaling ads, since SwiftPOD/Print Geek/Printful base costs differ meaningfully across these four products.
+**Pricing notes:** Printify is not returning per-variant base cost for any of these four blanks, so price off typical Etsy POD market rates that clear roughly $7–$10 net per unit after production, shipping and ~9-11% marketplace/transaction/ad fees: tee $26–$30 (target $28, ~$9 net), long sleeve tee $34–$38 (target $36, ~$8.50 net), Heavy Blend crewneck sweatshirt $42–$48 (target $45, ~$8.50 net), Heavy Blend hoodie $48–$55 (target $52, ~$9.50 net). Add $4–$6 for personalization (name/number/year) — it costs nothing extra to produce and is the highest-margin lever in football and Christmas. Use Etsy free-shipping thresholds baked into price rather than separate shipping, and hold a ~15% discount ceiling so sale pricing never drops below $7 net. Confirm actual base costs in the Printify dashboard manually and re-run margins before scaling ad spend, since two of these providers (Textildruck Europa, Duplium) may carry different shipping economics to US buyers than a US provider would.
 
 **This week's tasks:**
-- Pull a ListingView export for 'game day sweatshirt', 'vote 2026 shirt', 'fall sweatshirt' and 'Thanksgiving sweatshirt' before next week's run - it becomes the primary signal and will override these blog-derived calls.
-- Manually confirm base cost + shipping in the Printify dashboard for one variant of each of the four blueprints; record actual net profit per unit.
-- Launch 4 football/game-day designs as tees today AND queue the same art as Dark Heather/Ash crewneck listings scheduled to publish Sept 15.
-- Launch 3 non-partisan midterm civic tees (VOTE 2026 roundel, Midterms Matter, First-Time Voter '26) on Ash/Athletic Heather; keep partisan slogans in a separate listing group to isolate policy risk.
-- Launch 2 cozy-fall washed-texture designs and 1 early Halloween/'Gothmas' hoodie so they index before the September peak.
-- Build (don't yet publish) 2 Christmas crewneck designs in Forest Green/Dark Chocolate; schedule publish for early October.
-- Retitle and de-prioritize any America-250/July-4 listings - that traffic has decayed.
-- Add long sleeve tee variants/listings for the top 3 sellers to capture the September bridge window.
-- Set a calendar hard stop: Nov 4 - archive partisan political listings and reallocate all promotion to Christmas.
+- Launch the 10 designs: 3 football (game-day varsity tee, football-mom crewneck with personalization, Friday-Night-Lights long sleeve), 3 political (Vote It Still Matters tee, Midterms Matter tee, Democracy Is a Group Project crewneck), 2 fall (Sweater Weather faux-embroidery crewneck, park-badge stag hoodie), 1 naive-art everyday tee, 1 Halloween gothic-arch raven tee/hoodie.
+- Publish every new design as a tee + crewneck pair on day one so the September apparel-type switch requires only a thumbnail and title change, not new artwork.
+- Set a calendar trigger for Sept 15 to swap primary images and titles on all fall/football/political listings from tee to crewneck, and an Oct 15 trigger to promote hoodies to primary.
+- Build (don't yet publish) the Thanksgiving set for a Sept 1 launch and the Christmas coquette/personalized-family set for an Oct 1 launch — holiday listings need 6–8 weeks of Etsy indexing before they rank.
+- Install the missing measurement layer: connect an Etsy sales export and a ListingView competitor export before next week's run, since this report is web-signal-only and the export should override these picks once available.
+- Track 8–12 competitor listings in football, midterm-political, and fall-cozy using ListingView to capture real monthly units, and record baseline favorites counts now so next week's report can measure velocity rather than guess.
+- Keyword hygiene: add 'oversized', 'women's fit', 'game day', 'election 2026', 'sweater weather', and family/gift-recipient phrasing to titles and tags; avoid all real team names, candidate names, and campaign logos to prevent takedowns.
+- Write the political sunset plan now: pause political ads Nov 2, retire or archive all 2026-dated election SKUs by Nov 10, and redirect that ad budget to hoodies and Christmas personalization.
