@@ -1,0 +1,5 @@
+requests>=2.31
+pytrends>=4.9
+anthropic>=0.68
+python-dotenv>=1.0
+PyNaCl>=1.5

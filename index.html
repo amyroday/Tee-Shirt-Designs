@@ -35,55 +35,17 @@
     <li>New design concepts for your apparel business</li>
   </ul>
 <h2>Latest Report</h2>
-<p id="latest-report">Loading latest report...</p>
-
-<script>
-  async function loadLatestReport() {
-    try {
-      const response = await fetch('weekly_reports/');
-      const text = await response.text();
-
-      // Extract year folders
-      const yearMatches = [...text.matchAll(/href="(\\d{4})\\//g)];
-      if (!yearMatches.length) return;
-
-      const latestYear = yearMatches.map(m => m[1]).sort().pop();
-
-      const yearResponse = await fetch(`weekly_reports/${latestYear}/`);
-      const yearText = await yearResponse.text();
-
-      // Extract date folders
-      const dateMatches = [...yearText.matchAll(/href="(\\d{4}-\\d{2}-\\d{2})\\//g)];
-      if (!dateMatches.length) return;
-
-      const latestDate = dateMatches.map(m => m[1]).sort().pop();
-
-      const reportPath = `weekly_reports/${latestYear}/${latestDate}/Tee_Research_Report_${latestDate}.html`;
-
-      document.getElementById('latest-report').innerHTML =
-        `<a href="${reportPath}">View Latest Report (${latestDate})</a>`;
-    } catch (e) {
-      document.getElementById('latest-report').innerHTML = "Unable to load latest report.";
-    }
-  }
-
-  loadLatestReport();
-</script>
+<!-- LATEST_REPORT_START -->
+<p id="latest-report">No reports yet.</p>
+<!-- LATEST_REPORT_END -->
 
   <h2>Latest Weekly Reports</h2>
   <p>Click below to view your most recent reports:</p>
 
-  <ul>
-    <li><a href="weekly_reports/2026/2026-08-06/Tee_Research_Report_2026-08-06.html">
-      Week of 2026‑08‑06
-    </a></li>
-
-    <!-- GitHub Actions will add new weeks automatically -->
+  <ul id="report-list">
+    <!-- REPORT_LIST_START -->
+    <!-- REPORT_LIST_END -->
   </ul>
-  <h2>Report Gallery</h2>
-  <div id="gallery" style="display:flex; flex-wrap:wrap; gap:20px;"></div>
-  <h2>Report Gallery</h2>
-  <div id="gallery" style="display:flex; flex-wrap:wrap; gap:20px;"></div>
 
 </div>
 

@@ -1,0 +1,44 @@
+name: Weekly Tee Trend Report
+
+on:
+  schedule:
+    # 11:00 UTC = 7:00am ET during EDT (roughly Mar-Nov). During EST (winter)
+    # this fires at 6:00am ET instead -- GitHub Actions cron has no DST
+    # awareness. Adjust to '0 12 * * 1' in winter months if exact 7am ET
+    # matters, or leave as-is and accept the seasonal hour drift.
+    - cron: '0 11 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run weekly report
+        env:
+          PRINTIFY_TOKEN: ${{ secrets.PRINTIFY_TOKEN }}
+          PRINTIFY_SHOP_ID: ${{ secrets.PRINTIFY_SHOP_ID }}
+          ETSY_API_KEY: ${{ secrets.ETSY_API_KEY }}
+          ETSY_SHARED_SECRET: ${{ secrets.ETSY_SHARED_SECRET }}
+          ETSY_SHOP_ID: ${{ secrets.ETSY_SHOP_ID }}
+          ETSY_REFRESH_TOKEN: ${{ secrets.ETSY_REFRESH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_PAT_FOR_SECRETS: ${{ secrets.GH_PAT_FOR_SECRETS }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python pipeline/run_weekly_report.py
