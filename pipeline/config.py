@@ -47,15 +47,19 @@ class Config:
 
     @classmethod
     def load(cls, require_all: bool = True) -> "Config":
-        getter = _require if require_all else _optional
+        # Only the Anthropic key is truly required -- the orchestrator has its
+        # own graceful skip-logic for Printify and Etsy when they're not
+        # configured (e.g. Etsy isn't set up yet for a brand-new shop), so
+        # Config must not preempt that by hard-failing on their absence.
+        anthropic_getter = _require if require_all else _optional
         return cls(
-            printify_token=getter("PRINTIFY_TOKEN"),
-            printify_shop_id=getter("PRINTIFY_SHOP_ID"),
-            etsy_api_key=getter("ETSY_API_KEY"),
-            etsy_shared_secret=getter("ETSY_SHARED_SECRET"),
-            etsy_shop_id=getter("ETSY_SHOP_ID"),
-            etsy_refresh_token=getter("ETSY_REFRESH_TOKEN"),
-            anthropic_api_key=getter("ANTHROPIC_API_KEY"),
+            printify_token=_optional("PRINTIFY_TOKEN"),
+            printify_shop_id=_optional("PRINTIFY_SHOP_ID"),
+            etsy_api_key=_optional("ETSY_API_KEY"),
+            etsy_shared_secret=_optional("ETSY_SHARED_SECRET"),
+            etsy_shop_id=_optional("ETSY_SHOP_ID"),
+            etsy_refresh_token=_optional("ETSY_REFRESH_TOKEN"),
+            anthropic_api_key=anthropic_getter("ANTHROPIC_API_KEY"),
             gh_pat_for_secrets=_optional("GH_PAT_FOR_SECRETS"),
             github_repository=_optional("GITHUB_REPOSITORY", "amyroday/Tee-Shirt-Designs"),
         )
