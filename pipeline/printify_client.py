@@ -6,12 +6,23 @@ and to pull the actual base cost so the report can compute margins.
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from typing import Optional
 
 import requests
 
 BASE_URL = "https://api.printify.com/v1"
+
+
+def _normalize(text: str) -> str:
+    """Lowercases and strips everything but letters/digits/spaces.
+
+    Needed because Printify's `brand` field embeds a mangled (R) trademark
+    glyph (e.g. "Comfort Colors�") that breaks plain substring matching
+    against a clean search keyword like "Comfort Colors 1717".
+    """
+    return re.sub(r"[^a-z0-9\s]", " ", text.lower())
 
 # Priority-ordered blueprint title keywords per product type, seeded from
 # what the business has historically found sells (Comfort Colors garment-dyed,
@@ -30,7 +41,11 @@ class VariantCost:
     variant_id: int
     color: str
     size: str
-    cost_cents: int
+    # None means Printify's catalog API didn't return cost data for this
+    # variant (its public variants.json endpoint has no cost/price field --
+    # confirmed against the live API and docs). Never default this to 0;
+    # that would render as a false "$0.00" in a profit-margin report.
+    cost_cents: Optional[int]
 
 
 @dataclass
@@ -64,11 +79,11 @@ class PrintifyClient:
         return self._blueprint_cache
 
     def search_blueprints(self, keyword: str) -> list[dict]:
-        keyword_lower = keyword.lower()
+        keyword_norm = _normalize(keyword)
         return [
             bp
             for bp in self.list_blueprints()
-            if keyword_lower in bp.get("title", "").lower()
+            if keyword_norm in _normalize(f"{bp.get('brand', '')} {bp.get('model', '')} {bp.get('title', '')}")
         ]
 
     def get_print_providers(self, blueprint_id: int) -> list[dict]:
@@ -112,7 +127,7 @@ class PrintifyClient:
                 variant_id=first["id"],
                 color=first.get("options", {}).get("color", ""),
                 size=first.get("options", {}).get("size", ""),
-                cost_cents=first.get("cost", 0),
+                cost_cents=first.get("cost"),
             )
             return ResolvedProduct(
                 product_type=product_type,

@@ -48,11 +48,11 @@ def build_printify_context(client: PrintifyClient) -> tuple[str, dict]:
             lines.append(f"- {product_type}: no catalog match found")
             continue
         resolved[product_type] = product
-        cost = (product.sample_variant.cost_cents / 100) if product.sample_variant else None
-        cost_str = f"${cost:.2f}" if cost is not None else "unknown"
+        has_cost = product.sample_variant and product.sample_variant.cost_cents is not None
+        cost_str = f"${product.sample_variant.cost_cents / 100:.2f}" if has_cost else "not available from Printify's catalog API -- target $7-$10 net profit/unit instead"
         lines.append(
             f"- {product_type}: {product.blueprint_title} via {product.print_provider_title}, "
-            f"base cost ~{cost_str}, colors: {', '.join(product.all_colors[:8])}"
+            f"base cost {cost_str}, colors: {', '.join(product.all_colors[:8])}"
         )
     return "\n".join(lines), resolved
 

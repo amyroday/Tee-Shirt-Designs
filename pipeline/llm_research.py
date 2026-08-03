@@ -27,10 +27,10 @@ RESPONSE_SCHEMA = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "product_type": {"type": "string"},
-                    "printify_product_hint": {"type": "string"},
-                    "niche": {"type": "string"},
-                    "design_description": {"type": "string"},
+                    "product_type": {"type": "string", "minLength": 1},
+                    "printify_product_hint": {"type": "string", "minLength": 1},
+                    "niche": {"type": "string", "minLength": 1},
+                    "design_description": {"type": "string", "minLength": 1},
                     "price_usd": {"type": "number"},
                     "estimated_profit_usd": {"type": "number"},
                     "source_url": {"type": "string"},
@@ -141,7 +141,11 @@ recommendation, note the product type (tee/long sleeve/sweatshirt/hoodie) and ex
 when the winning apparel type is shifting (e.g. tees to sweatshirts as fall progresses). \
 When a manual ListingView export is provided, treat it as your most reliable signal -- it's \
 real monthly sales/units/trend data from actual competing listings, not a web search estimate \
--- and prioritize items and niches it surfaces over generic blog-sourced trend claims."""
+-- and prioritize items and niches it surfaces over generic blog-sourced trend claims. \
+Printify's catalog API does not expose per-variant base cost, so when the catalog context says \
+cost is unavailable, target roughly $7-$10 net profit per unit (after production cost, shipping, \
+and marketplace fees) when setting estimated_profit_usd and recommending retail price -- use \
+typical print-on-demand market pricing for that product type as the basis, not a guess."""
 
 
 def run_research(
@@ -177,7 +181,7 @@ def run_research(
     for _ in range(3):  # allow a couple of pause_turn resumes for the server-side search loop
         response = client.messages.create(
             model=MODEL,
-            max_tokens=8000,
+            max_tokens=16000,
             system=SYSTEM_PROMPT,
             tools=[{"type": "web_search_20260209", "name": "web_search"}],
             output_config={"format": {"type": "json_schema", "schema": RESPONSE_SCHEMA}},
@@ -187,6 +191,12 @@ def run_research(
         if response.stop_reason == "pause_turn":
             messages = [{"role": "user", "content": user_prompt}, {"role": "assistant", "content": response.content}]
             continue
+
+        if response.stop_reason == "max_tokens":
+            raise RuntimeError(
+                "Research response was cut off at the max_tokens limit before completing -- "
+                "raise max_tokens in llm_research.py further."
+            )
 
         text = next(block.text for block in response.content if block.type == "text")
         return json.loads(text)
